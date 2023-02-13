@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.antivariant.testapi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] /Users/antivariant/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+14        android:name="com.antivariant.testapi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] /Users/antivariant/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] /Users/antivariant/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.antivariant.testapi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] /Users/antivariant/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] /Users/antivariant/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:7:5-26:19
+20        android:allowBackup="true"
+20-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] /Users/antivariant/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:10:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:11:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:12:9-43
+27        android:label="@string/app_name"
+27-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:13:9-41
+28        android:supportsRtl="true"
+28-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:14:9-35
+29        android:theme="@style/Theme.TestAPI"
+29-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:15:9-45
+30        android:usesCleartextTraffic="true" >
+30-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:9:9-44
+31        <activity
+31-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:17:9-25:20
+32            android:name="com.antivariant.testapi.MainActivity"
+32-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:18:13-41
+33            android:exported="true" >
+33-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:19:13-36
+34            <intent-filter>
+34-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:20:13-24:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:21:17-69
+35-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:21:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:23:17-77
+37-->/Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/main/AndroidManifest.xml:23:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.2.0] /Users/antivariant/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.2.0] /Users/antivariant/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+43            android:authorities="com.antivariant.testapi.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.2.0] /Users/antivariant/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.2.0] /Users/antivariant/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/antivariant/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.2.0] /Users/antivariant/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.2.0] /Users/antivariant/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/antivariant/.gradle/caches/transforms-3/7495f4090f64d34b46f8102bfc12da1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/antivariant/.gradle/caches/transforms-3/7495f4090f64d34b46f8102bfc12da1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/antivariant/.gradle/caches/transforms-3/7495f4090f64d34b46f8102bfc12da1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>

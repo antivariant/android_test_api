@@ -1,0 +1,9 @@
+com.antivariant.testapi.test.app-core-1.5.0-0 /Users/antivariant/.gradle/caches/transforms-3/ec8487f8c7272de764897bc7316bc789/transformed/core-1.5.0/res
+com.antivariant.testapi.test.app-annotation-experimental-1.3.0-1 /Users/antivariant/.gradle/caches/transforms-3/fd3daf95af5e4e1fd3f3860fc1410040/transformed/annotation-experimental-1.3.0/res
+com.antivariant.testapi.test.app-androidTest-2 /Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/build/generated/res/resValues/androidTest/debug
+com.antivariant.testapi.test.app-androidTest-3 /Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/build/generated/res/rs/androidTest/debug
+com.antivariant.testapi.test.app-mergeDebugAndroidTestResources-4 /Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.antivariant.testapi.test.app-mergeDebugAndroidTestResources-5 /Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.antivariant.testapi.test.app-merged_res-6 /Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/build/intermediates/merged_res/debugAndroidTest
+com.antivariant.testapi.test.app-androidTest-7 /Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/androidTest/res
+com.antivariant.testapi.test.app-androidTestDebug-8 /Users/antivariant/Documents/Business/GetEd/ManualQA/AndroidTestAPI/app/src/androidTestDebug/res
